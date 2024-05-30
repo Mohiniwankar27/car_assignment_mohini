@@ -14,7 +14,7 @@ import java.util.Optional;
 @RequestMapping("/cars")
 public class CarController {
     @Autowired
-    private CarService carService; // instance of CarService to interact with car data
+    private CarService carService;
 
     // Endpoint to retrieve all cars
     @GetMapping

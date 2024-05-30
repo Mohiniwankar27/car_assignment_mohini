@@ -20,8 +20,8 @@ public class Vehicle {
         this.color = color;
     }
 
+    // Default constructor
     public Vehicle() {
-        // Default constructor
         this.brand = "Unknown Brand";
         this.year = 0;
         this.color = "Unknown Color";
